@@ -1,0 +1,260 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.nav{
+  width: 100%;
+  height: 100px;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+.im1{
+  width: 100px;
+  height: 90px;
+  left: 90px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.dropdown{
+  margin-top: 38px;
+  margin-left: 580px;
+}
+.list1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.list1 li a{
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+.linkitem{
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+}
+.linkitem a{
+  color: darkgray;
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.linkitem button{
+  background-color: rgb(11, 109, 142);
+  color: white;
+  border-radius: 7px;
+}
+.linkitem button:hover{
+  color: rgb(207, 169, 98);
+}
+.linkitem a:hover{
+ color: black;
+ transform: scale(1.2);
+}
+.carousel-caption p{
+  font-size: 28px;
+  color: gold;
+  font-weight: bold;
+}
+.about-content h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Acme", sans-serif;
+    color: #836868;
+}
+.about-content p{
+  text-align: justify;
+  margin-top: 100px;
+  margin-left: 26px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 21.3px;
+}
+.about-content img{
+  border-radius: 6px;
+  margin-top: 15px;
+  height: 380px;
+  width: 650px;
+  margin-left: 20px;
+}
+.about-content1 img{
+  border-radius: 6px;
+  margin-top: 30px;
+  height: 380px;
+  width: 650px;
+  margin-left: 33px;
+}
+.about-content1 p{
+  text-align: justify;
+  width: 650px;
+  margin-top: 100px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 21.3px;
+}
+.cards-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.card{
+  margin-top: 30px;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.head-travel{
+  margin-left: 140px;
+  font-size: 60px;
+}
+.head-travel p{
+  margin-left: 140px;
+  font-size: 45px;
+  font-family: "Acme", sans-serif;
+  color: #836868;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  float: right;
+  margin-top: -86px;
+  margin-right: 57px;
+}
+.search-input {
+  flex: 1;
+  margin-right: 10px;
+  
+}
+.services-row h1{
+   font-size: 40px ;
+   margin-left: 140px;
+   margin-top: 100px;
+   font-family: "Acme", sans-serif;
+   color: #836868;
+}
+.service{
+  width: 240px;
+  margin-left: 150px;
+}
+.service h5{
+  margin-left: 19px;
+}
+.service img{
+  width: 80px;
+  height: 80px;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.service h2{
+  text-align: center;
+}
+.service p{
+  text-align: justify;
+}
+.servrow1 row{
+  margin-top: 30px;
+}
+.servrow2{
+  margin-top: 60px;
+  
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-social-icons{
+  margin-left: -50px;
+  margin-top: 24px;
+  text-decoration: none;
+  display: inline-block;
+  display: flex;
+  list-style: none;
+  
+}
+.footer-social-icons a {
+  color: #fff;
+  margin-right: 10px;
+}
+.icon{
+  margin: 0px 15px;
+  align-items: center;
+  justify-content: center;
+}
+.icon:hover{
+  transform: scale(1.45);
+}
+
+.experiences {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+.experience {
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.experience img {
+  border-radius: 50%;
+  width: 100px;
+  height: 70px;
+  margin-right: 20px;
+}
+.experience .info {
+  padding-top: 5px;
+}
+.experience .name {
+  font-weight: bold;
+}
+.experience .location {
+  color: #666;
+}
+.experience .comment {
+  margin-top: 10px;
+  text-align: justify;
+}
+.rev a{
+   float: right;
+   margin-right: 85px;
+   font-size: 24px;
+   text-decoration: none;
+}
+.rev a:hover{
+    text-decoration: underline;
+}
+.container h2{
+    font-family: "Acme", sans-serif;  
+}
+.h11 p{
+  margin-left: 61px;
+  margin-top: -15px;
+  font-size: 14px;
+  color: #c95959;
+  font-family: "Acme", sans-serif;
+}
